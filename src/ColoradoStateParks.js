@@ -5,11 +5,13 @@ import{trees,wildlife} from "./parks/RockyMountain";
 
 function ColoradoStateParks() {
   howManyParks(); // => "42 parks!"
-  wildlife();
+  
   return (
   <div>
   <h1>Colorado State Parks!</h1>
   <MesaVerde/>
+  <h3>Trees: {trees}</h3>
+  
   </div>);
 }
  export default ColoradoStateParks;
